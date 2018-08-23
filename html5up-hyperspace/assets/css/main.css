@@ -2439,7 +2439,7 @@ input, select, textarea {
 		input[type="radio"]:checked + label:before {
 			background: #ffffff;
 			border-color: #ffffff;
-			color: #565656;
+			color: #0f4f1b;
 			content: '\f00c';
 		}
 
@@ -2531,7 +2531,7 @@ input, select, textarea {
 				}
 
 				.wrapper.style3 .icon.major:before {
-					color: #565656;
+					color: #0f4f1b;
 				}
 
 				.wrapper.style3-alt .icon.major:before {
@@ -3242,7 +3242,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #565656;
+			background-color: #0f4f1b;
 		}
 
 		.wrapper.style3-alt {
@@ -3840,7 +3840,7 @@ input, select, textarea {
 
 						#sidebar nav a:after {
 							background-image: none;
-							background-color: #565656;
+							background-color: #0f4f1b;
 						}
 
 		}
