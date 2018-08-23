@@ -2591,7 +2591,36 @@ input, select, textarea {
 			.image.main img {
 				width: 100%;
 			}
+/*Animation*/
+    @-webkit-keyframes typing {
+    from { width: 0 }
+    to { width:10em }
+}
 
+@-moz-keyframes typing {
+    from { width: 0 }
+    to { width:10em }
+}
+
+@-webkit-keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+}
+
+@-moz-keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange}
+}
+h1 { 
+    white-space:nowrap;
+    overflow:hidden;
+    border-right: .1em solid black;
+    
+    -webkit-animation: typing 1s steps(15, end),
+                        blink-caret 1s step-end infinite;
+    -moz-animation: typing 1s steps(15, end), 
+                        blink-caret 1s step-end infinite;
+}
 /* List */
 
 	ol {
