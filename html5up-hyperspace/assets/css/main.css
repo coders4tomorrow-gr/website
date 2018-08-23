@@ -116,7 +116,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: rgba(255, 255, 255, 0.55);
-		font-family: Arial, Helvetica, sans-serif;
+		font-family: "Lucida Console", Monaco, monospace;
 		font-size: 16.5pt;
 		font-weight: normal;
 		line-height: 1.75;
@@ -187,7 +187,7 @@ input, select, textarea {
 		}
 
 	h1 {
-		font-size: 2.75em;
+		font-size: 4.50em;
 	}
 
 		h1.major {
@@ -285,7 +285,7 @@ input, select, textarea {
 		background: rgba(255, 255, 255, 0.05);
 		border-radius: 0.25em;
 		border: solid 1px rgba(255, 255, 255, 0.15);
-		font-family: "Courier New", monospace;
+		font-family: "Lucida Console", Monaco, monospace;
 		font-size: 0.9em;
 		margin: 0 0.25em;
 		padding: 0.25em 0.65em;
@@ -293,7 +293,7 @@ input, select, textarea {
 
 	pre {
 		-webkit-overflow-scrolling: touch;
-		font-family: "Courier New", monospace;
+		font-family: "Lucida Console", Monaco, monospace;
 		font-size: 0.9em;
 		margin: 0 0 2em 0;
 	}
@@ -2519,15 +2519,15 @@ input, select, textarea {
 				}
 
 				.wrapper.style1-alt .icon.major:before {
-					color: #493382;
+					color: #020c01;
 				}
 
 				.wrapper.style2 .icon.major:before {
-					color: #5052b5;
+					color: #303030;
 				}
 
 				.wrapper.style2-alt .icon.major:before {
-					color: #3e4094;
+					color: #404040;
 				}
 
 				.wrapper.style3 .icon.major:before {
@@ -2535,7 +2535,7 @@ input, select, textarea {
 				}
 
 				.wrapper.style3-alt .icon.major:before {
-					color: #953d75;
+					color: #505050;
 				}
 
 /* Image */
@@ -3230,15 +3230,15 @@ input, select, textarea {
 		}
 
 		.wrapper.style1-alt {
-			background-color: #493382;
+			background-color: #020c01;
 		}
 
 		.wrapper.style2 {
-			background-color: #5052b5;
+			background-color: #303030;
 		}
 
 		.wrapper.style2-alt {
-			background-color: #3e4094;
+			background-color: #404040;
 		}
 
 		.wrapper.style3 {
@@ -3246,7 +3246,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style3-alt {
-			background-color: #953d75;
+			background-color: #505050;
 		}
 
 		.wrapper.fullscreen {
@@ -3744,7 +3744,7 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:before {
-				background: #3c2c62;
+				background: #226812;
 			}
 
 			#sidebar nav a:after {
@@ -3864,7 +3864,8 @@ input, select, textarea {
 	}
 
 		#intro p {
-			font-size: 1.25em;
+			font-size: 0.9em;
+            color:green;
 		}
 
 			@media screen and (max-width: 980px) {
@@ -3878,7 +3879,7 @@ input, select, textarea {
 			@media screen and (max-width: 736px) {
 
 				#intro p {
-					font-size: 1em;
+					font-size: 0.6em;
 				}
 
 			}
