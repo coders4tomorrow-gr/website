@@ -1828,9 +1828,9 @@ input, select, textarea {
 		transition: border-color 0.2s ease;
 		background-color: transparent;
 		border: solid 1px !important;
-		border-color: orange!important;
+		border-color: #ffffff!important;
 		border-radius: 3em;
-		color: ffffff !important;
+		color: #ffffff !important;
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.6em;
@@ -1940,7 +1940,6 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-            border-color: darkgreen;
 			color: green!important;
 		}
 
