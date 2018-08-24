@@ -2474,13 +2474,13 @@ input, select, textarea {
 
 /* Icon */
 
-	.icon {
+	.fas {
 		text-decoration: none;
 		border-bottom: none;
 		position: relative;
 	}
 
-		.icon:before {
+		.fas:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
 			font-family: FontAwesome;
@@ -2489,11 +2489,11 @@ input, select, textarea {
 			text-transform: none !important;
 		}
 
-		.icon > .label {
+		.fas > .label {
 			display: none;
 		}
 
-		.icon.major {
+		.fas.major {
 			width: 2.5em;
 			height: 2.5em;
 			display: block;
@@ -2505,7 +2505,7 @@ input, select, textarea {
 			margin: 0 0 1.3em 0;
 		}
 
-			.icon.major:before {
+			.fas.major:before {
 				font-size: 1.25em;
 			}
 
@@ -2540,6 +2540,7 @@ input, select, textarea {
 		border: 0;
 		display: inline-block;
 		position: relative;
+        background-color: darkgreen;
 	}
 
 		.image img {
