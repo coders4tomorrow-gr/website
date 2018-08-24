@@ -1828,9 +1828,9 @@ input, select, textarea {
 		transition: border-color 0.2s ease;
 		background-color: transparent;
 		border: solid 1px !important;
-		border-color: ffffff!important;
+		border-color: orange!important;
 		border-radius: 3em;
-		color: #ffffff !important;
+		color: ffffff !important;
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.6em;
@@ -1940,7 +1940,8 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			border-color: green!important;
+            border-color: darkgreen;
+			color: green!important;
 		}
 
 			input[type="submit"]:hover:after,
@@ -2518,11 +2519,11 @@ input, select, textarea {
 				}
 
 				.wrapper.style2 .icon.major:before {
-					color: #303030;
+					color: #101010;
 				}
 
 				.wrapper.style2-alt .icon.major:before {
-					color: #404040;
+					color: #202020;
 				}
 
 				.wrapper.style3 .icon.major:before {
@@ -2530,7 +2531,7 @@ input, select, textarea {
 				}
 
 				.wrapper.style3-alt .icon.major:before {
-					color: #505050;
+					color: #282828;
 				}
 
 /* Image */
@@ -3259,11 +3260,11 @@ h1 {
 		}
 
 		.wrapper.style2 {
-			background-color: #303030;
+			background-color: #101010;
 		}
 
 		.wrapper.style2-alt {
-			background-color: #404040;
+			background-color: #202020;
 		}
 
 		.wrapper.style3 {
@@ -3271,7 +3272,7 @@ h1 {
 		}
 
 		.wrapper.style3-alt {
-			background-color: #505050;
+			background-color: #282828;
 		}
 
 		.wrapper.fullscreen {
